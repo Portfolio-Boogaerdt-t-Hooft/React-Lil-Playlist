@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.header{
+  color:#CCCCCC;
+  background:#293136;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  font-size: 20px;
+  padding:30px;
+  border-top:0;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-around; 
+  /* align-items: center;
+  min-height: 20vh;
+  font-size: 20px;
+  padding:60px;
+  border-top:0; */ 
+}
+
+.title{
+  font-size: 60px;
+}
+.nav-link{
+  width:50%;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  color:#CCCCCC;
+
+}
+a:visited{
+  color:#CCCCCC;
+  padding:10px;
+  background: #445058;
+}
+.homepage{
+  background:#888888;
+
+}
+.header{
+  margin-bottom:0;
+}
